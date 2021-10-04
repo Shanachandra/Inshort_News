@@ -1,0 +1,67 @@
+
+.innerdiv1{
+    box-shadow: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+    
+    
+}
+
+.innerdiv2{
+    
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+
+.fit-image{
+    width: 100%;
+    object-fit: cover;
+    height: 200px; 
+    border-radius: 5px;
+    }
+    
+
+    .sidebar {
+        margin: 0;
+        padding: 0;
+        width: 200px;
+        background-color: #f1f1f1;
+        position: sticky;
+        height: 100%;
+        
+      }
+      .sidebar button {
+        display: block;
+        color: black;
+        padding: 16px;
+        text-decoration: none;
+      }
+              .heading{
+                  background-color: red;
+                  color: white;
+                  font-size: 30px;
+                  text-align: center;
+                  font-family: Arial, Helvetica, sans-serif;
+              }
+              button{
+                  border: none;
+                  
+              }
+    span{
+        font-size: 10px;
+    }
+    p
+    {
+        font-size: 10px;
+    }
+    h6{
+        margin: 0px;
+    }
+    #spandateval
+    {
+        margin-bottom: 5px;
+    }
+    

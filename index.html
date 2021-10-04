@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+</head>
+<body onload="getNewsData('all')" >
+    <div class="heading"><i class="fa fa-newspaper-o" aria-hidden="true"></i>  Inshort News</div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="display: flex; justify-content: center;">
+        <a class="navbar-brand" onclick="getNewsData('all')" href="#">Home</a>
+        <a class="navbar-brand" onclick="getNewsData('national')" href="#">National</a>
+        <a class="navbar-brand" onclick="getNewsData('business')" href="#">Business</a>
+        <a class="navbar-brand" onclick="getNewsData('sports')" href="#">Sports</a>
+        <a class="navbar-brand" onclick="getNewsData('world')" href="#">World</a>
+        <a class="navbar-brand" onclick="getNewsData('politics')" href="#">Politics</a>
+        <a class="navbar-brand" onclick="getNewsData('technology')" href="#">Technology</a>
+        <a class="navbar-brand" onclick="getNewsData('startup')" href="#">Startup</a>
+        <a class="navbar-brand" onclick="getNewsData('entertainment')" href="#">Entertainment</a>
+        <a class="navbar-brand" onclick="getNewsData('miscellaneous')" href="#">Miscellaneous</a>
+        <a class="navbar-brand" onclick="getNewsData('hatke')" href="#">Hatke</a>
+        <a class="navbar-brand" onclick="getNewsData('science')" href="#">Science</a>
+        <a class="navbar-brand" onclick="getNewsData('automobile')" href="#">Automobile</a>
+      
+     
+      </nav>
+    <div id="check"></div>
+    <!-- <div class="sidebar">
+        <button  onclick="getNewsData('all')">Home</button>
+        <button  onclick="getNewsData('national')">National //Indian News only</button>
+        <button  onclick="getNewsData('business')">Business</button>
+        <button  onclick="getNewsData('sports')">Sports</button>
+        <button  onclick="getNewsData('world')">World</button>
+        <button  onclick="getNewsData('politics')">Politics</button>
+        <button  onclick="getNewsData('technology')">Technology</button>
+        <button  onclick="getNewsData('startup')">Startup</button>
+        <button  onclick="getNewsData('entertainment')">Entertainment</button>
+        <button  onclick="getNewsData('miscellaneous')">Miscellaneous</button>
+        <button  onclick="getNewsData('hatke')">Hatke</button>
+        <button  onclick="getNewsData('science')">Science</button>
+        <button  onclick="getNewsData('automobile')">Automobile</button>
+    </div> -->
+    <script src="JS/script.js"></script>
+</body>
+</html>
