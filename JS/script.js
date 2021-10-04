@@ -108,7 +108,7 @@ async function getNewsData(value){
         var contenth6=document.createElement('h6')
         contenth6.innerHTML=jsondata.data[i]?.title
         var spandate1=document.createElement('span')
-        spandate1.innerHTML=`Short by ${jsondata?.data[i]?.author} / ${jsondata?.data[i]?.time} on ${jsondata?.data[i]?.date}`
+        spandate1.innerHTML=`<b>Short</b> by ${jsondata?.data[i]?.author} / ${jsondata?.data[i]?.time} on ${jsondata?.data[i]?.date}`
         var para1=document.createElement('p')
         para1.innerHTML=jsondata.data[i].content
         var readmore1=document.createElement('span')
